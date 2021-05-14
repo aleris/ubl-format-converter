@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns7="urn:oasis:names:specification:ubl:schema:xsd:Order-2" xmlns:sdt="urn:oasis:names:specification:ubl:schema:xsd:SpecializedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+    
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:tradeshift.com:ubl-2.0-customizations:2010-06</cbc:CustomizationID>
+    <cbc:ProfileID schemeAgencyID="http://tradeshift.com">urn:tradeshift.com:profile:BasicOrder:ver1.0</cbc:ProfileID>
+    <cbc:ID>PO12244133</cbc:ID>
+    <cbc:CopyIndicator>true</cbc:CopyIndicator>
+    <cbc:IssueDate>2021-04-04</cbc:IssueDate>
+    <cbc:Note>Disclaimer - Please note that this Purchase Order (PO) is only a copy of the official PO document, to facilitate e-Invoicing to Example Buyer. The official PO you should have received earlier.</cbc:Note>
+    <cbc:DocumentCurrencyCode>SGD</cbc:DocumentCurrencyCode>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID/>
+    </cac:AdditionalDocumentReference>
+    <cac:AdditionalDocumentReference>
+        <cbc:ID>1</cbc:ID>
+        <cbc:DocumentTypeCode listID="urn:tradeshift.com:api:1.0:documenttypecode">humanreadableversion</cbc:DocumentTypeCode>
+    </cac:AdditionalDocumentReference>
+    <cac:BuyerCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TS:ID">126ddb10-2643-4366-9713-41bffa4eacc1</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Child1BranchUS john.smith+001+child1</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listAgencyID="6" listID="UN/ECE 3477" listVersionID="D08B">5</cbc:AddressFormatCode>
+                <cbc:StreetName>Andersgade</cbc:StreetName>
+                <cbc:BuildingNumber>4</cbc:BuildingNumber>
+                <cbc:CityName>Shiftograd</cbc:CityName>
+                <cbc:PostalZone>55667</cbc:PostalZone>
+                <cbc:CountrySubentity>VW</cbc:CountrySubentity>
+                <cac:Country>
+                    <cbc:IdentificationCode>US</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:Contact></cac:Contact>
+        </cac:Party>
+    </cac:BuyerCustomerParty>
+    <cac:SellerSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TS:ID">326ddb10-2643-4366-9713-41bffa4eacc3</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Example Seller Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listAgencyID="320" listID="urn:oioubl:codelist:addressformatcode-1.1">StructuredDE</cbc:AddressFormatCode>
+                <cbc:StreetName>Main Street</cbc:StreetName>
+                <cbc:BuildingNumber>1</cbc:BuildingNumber>
+                <cbc:CityName>Copenhagen</cbc:CityName>
+                <cbc:PostalZone>1000</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:Contact>
+                <cbc:ElectronicMail>john.smith+001@tradeshift.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:SellerSupplierParty>
+    <cac:AnticipatedMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="SGD">16900</cbc:LineExtensionAmount>
+        <cbc:PayableAmount currencyID="SGD">16900</cbc:PayableAmount>
+    </cac:AnticipatedMonetaryTotal>
+    <cac:OrderLine>
+        <cac:LineItem>
+            <cbc:ID>1</cbc:ID>
+            <cbc:Quantity unitCode="EA">16900.0000</cbc:Quantity>
+            <cbc:LineExtensionAmount currencyID="SGD">16900.0000</cbc:LineExtensionAmount>
+            <cac:Price>
+                <cbc:PriceAmount currencyID="SGD">1.0000</cbc:PriceAmount>
+                <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+            </cac:Price>
+            <cac:Item>
+                <cbc:Description>Purchase of dry good for</cbc:Description>
+                <cac:ClassifiedTaxCategory>
+                    <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305"/>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5153 Subset"/>
+                        <cbc:Name/>
+                    </cac:TaxScheme>
+                </cac:ClassifiedTaxCategory>
+            </cac:Item>
+        </cac:LineItem>
+    </cac:OrderLine>
+</Order>

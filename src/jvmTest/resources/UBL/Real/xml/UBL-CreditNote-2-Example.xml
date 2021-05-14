@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+            xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2 UBL-CreditNote-2.0.xsd">
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:tradeshift.com:ubl-2.0-customizations:2010-06</cbc:CustomizationID>
+    <cbc:ProfileID schemeID="CWA 16073:2010" schemeAgencyID="CEN/ISSS WS/BII">urn:www.cenbii.eu:profile:bii04:ver1.0</cbc:ProfileID>
+    <cbc:ID>CN-TST-222</cbc:ID>
+    <cbc:IssueDate>2017-02-24</cbc:IssueDate>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    <cac:BillingReference>
+        <cac:InvoiceDocumentReference>
+            <cbc:ID>INV-W-1</cbc:ID>
+            <cbc:IssueDate>2018-02-09</cbc:IssueDate>
+        </cac:InvoiceDocumentReference>
+    </cac:BillingReference>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TS:ID">126ddb10-2643-4366-9713-41bffa4eacc1</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Example Supplier</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listAgencyID="6" listID="UN/ECE 3477" listVersionID="D08B">5</cbc:AddressFormatCode>
+                <cbc:StreetName>Main street</cbc:StreetName>
+                <cbc:BuildingNumber>1</cbc:BuildingNumber>
+                <cbc:CityName>Hamburg</cbc:CityName>
+                <cbc:PostalZone>29983</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="TS:ID">326ddb10-2643-4366-9713-41bffa4eacc3</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Buyer Construction Co.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listAgencyID="6" listID="UN/ECE 3477" listVersionID="D08B">5</cbc:AddressFormatCode>
+                <cbc:StreetName>Main Street</cbc:StreetName>
+                <cbc:BuildingNumber>1</cbc:BuildingNumber>
+                <cbc:CityName>Copenhagen</cbc:CityName>
+                <cbc:PostalZone>1000</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>DE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:Contact>
+                <cbc:ID>John Smith</cbc:ID>
+            </cac:Contact>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="USD">8.68</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="USD">300.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">E</cbc:ID>
+                <cbc:Percent>0</cbc:Percent>
+                <cbc:TaxExemptionReason>Zero tax license 34562754a</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyID="6"
+                       schemeID="UN/ECE 5153 Subset"
+                       schemeVersionID="D08B">STT</cbc:ID>
+                    <cbc:Name>US sales tax 0%</cbc:Name>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="USD">124.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="USD">8.68</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">S</cbc:ID>
+                <cbc:Percent>7</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyID="6"
+                       schemeID="UN/ECE 5153 Subset"
+                       schemeVersionID="D08B">STT</cbc:ID>
+                    <cbc:Name>US Sales tax</cbc:Name>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="USD">25.42</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">Z</cbc:ID>
+                <cbc:Percent>0</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyID="6"
+                       schemeID="UN/ECE 5153 Subset"
+                       schemeVersionID="D08B">STT</cbc:ID>
+                    <cbc:Name>US Non-Taxable 0%</cbc:Name>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="USD">58.50</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">E</cbc:ID>
+                <cbc:Percent>0</cbc:Percent>
+                <cbc:TaxExemptionReason>Cables not taxable</cbc:TaxExemptionReason>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyID="6"
+                       schemeID="UN/ECE 5153 Subset"
+                       schemeVersionID="D08B">STT</cbc:ID>
+                    <cbc:Name>US Tax Exempt 0%</cbc:Name>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="USD">64.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">E</cbc:ID>
+                <cbc:Percent>0</cbc:Percent>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyID="6"
+                       schemeID="UN/ECE 5153 Subset"
+                       schemeVersionID="D08B">STT</cbc:ID>
+                    <cbc:Name>US Tax Exempt 0%</cbc:Name>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">571.92</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">8.68</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">580.60</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">580.60</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:CreditNoteLine>
+        <cbc:ID>110</cbc:ID>
+        <cbc:CreditedQuantity unitCode="EA">10</cbc:CreditedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">300.00</cbc:LineExtensionAmount>
+        <cac:BillingReference>
+            <cac:BillingReferenceLine>
+                <cbc:ID>110</cbc:ID>
+            </cac:BillingReferenceLine>
+        </cac:BillingReference>
+        <cac:DocumentReference>
+            <cbc:ID>PO-222-AF-421</cbc:ID>
+            <cbc:DocumentTypeCode listID="urn:tradeshift.com:api:1.0:documenttypecode">Order ID</cbc:DocumentTypeCode>
+        </cac:DocumentReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="USD">300.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+                <cbc:CalculationSequenceNumeric>1</cbc:CalculationSequenceNumeric>
+                <cac:TaxCategory>
+                    <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">E</cbc:ID>
+                    <cbc:Percent>0</cbc:Percent>
+                    <cbc:TaxExemptionReason>Zero tax license 34562754a</cbc:TaxExemptionReason>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyID="6"
+                          schemeID="UN/ECE 5153 Subset"
+                          schemeVersionID="D08B">STT</cbc:ID>
+                        <cbc:Name>US sales tax 0%</cbc:Name>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>Memory 2GB</cbc:Description>
+            <cbc:Name>Memory 2GB</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">30.00</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+            <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+        </cac:Price>
+    </cac:CreditNoteLine>
+    <cac:CreditNoteLine>
+        <cbc:ID>120</cbc:ID>
+        <cbc:CreditedQuantity unitCode="EA">2</cbc:CreditedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">124.00</cbc:LineExtensionAmount>
+        <cac:BillingReference>
+            <cac:BillingReferenceLine>
+                <cbc:ID>120</cbc:ID>
+            </cac:BillingReferenceLine>
+        </cac:BillingReference>
+        <cac:DocumentReference>
+            <cbc:ID>PO-IO-098292</cbc:ID>
+            <cbc:DocumentTypeCode listID="urn:tradeshift.com:api:1.0:documenttypecode">Order ID</cbc:DocumentTypeCode>
+        </cac:DocumentReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="USD">8.68</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="USD">124.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="USD">8.68</cbc:TaxAmount>
+                <cbc:CalculationSequenceNumeric>1</cbc:CalculationSequenceNumeric>
+                <cac:TaxCategory>
+                    <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">S</cbc:ID>
+                    <cbc:Percent>7</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyID="6"
+                          schemeID="UN/ECE 5153 Subset"
+                          schemeVersionID="D08B">STT</cbc:ID>
+                        <cbc:Name>US Sales tax</cbc:Name>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>SDD drive</cbc:Description>
+            <cbc:Name>SDD drive</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">62.00</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+            <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+        </cac:Price>
+    </cac:CreditNoteLine>
+    <cac:CreditNoteLine>
+        <cbc:ID>140</cbc:ID>
+        <cbc:CreditedQuantity unitCode="EA">8.5</cbc:CreditedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">25.42</cbc:LineExtensionAmount>
+        <cac:BillingReference>
+            <cac:BillingReferenceLine>
+                <cbc:ID>140</cbc:ID>
+            </cac:BillingReferenceLine>
+        </cac:BillingReference>
+        <cac:DocumentReference>
+            <cbc:ID>PO-98-K-12323</cbc:ID>
+            <cbc:DocumentTypeCode listID="urn:tradeshift.com:api:1.0:documenttypecode">Order ID</cbc:DocumentTypeCode>
+        </cac:DocumentReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="USD">25.42</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+                <cbc:CalculationSequenceNumeric>1</cbc:CalculationSequenceNumeric>
+                <cac:TaxCategory>
+                    <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">Z</cbc:ID>
+                    <cbc:Percent>0</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyID="6"
+                          schemeID="UN/ECE 5153 Subset"
+                          schemeVersionID="D08B">STT</cbc:ID>
+                        <cbc:Name>US Non-Taxable 0%</cbc:Name>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>Keyboards</cbc:Description>
+            <cbc:Name>Keyboards</cbc:Name>
+            <cac:SellersItemIdentification>
+                <cbc:ID schemeAgencyID="9" schemeID="GTIN">90210</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">2.99</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+            <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+        </cac:Price>
+    </cac:CreditNoteLine>
+    <cac:CreditNoteLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:CreditedQuantity unitCode="EA">13</cbc:CreditedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">58.50</cbc:LineExtensionAmount>
+        <cac:BillingReference>
+            <cac:BillingReferenceLine>
+                <cbc:ID>5</cbc:ID>
+            </cac:BillingReferenceLine>
+        </cac:BillingReference>
+        <cac:DocumentReference>
+            <cbc:ID>PO-22-9</cbc:ID>
+            <cbc:DocumentTypeCode listID="urn:tradeshift.com:api:1.0:documenttypecode">Order ID</cbc:DocumentTypeCode>
+        </cac:DocumentReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="USD">58.50</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+                <cbc:CalculationSequenceNumeric>1</cbc:CalculationSequenceNumeric>
+                <cac:TaxCategory>
+                    <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">E</cbc:ID>
+                    <cbc:Percent>0</cbc:Percent>
+                    <cbc:TaxExemptionReason>Cables not taxable</cbc:TaxExemptionReason>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyID="6"
+                          schemeID="UN/ECE 5153 Subset"
+                          schemeVersionID="D08B">STT</cbc:ID>
+                        <cbc:Name>US Tax Exempt 0%</cbc:Name>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>Cable RJ45</cbc:Description>
+            <cbc:Name>Cable RJ45</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">4.50</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+            <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+        </cac:Price>
+    </cac:CreditNoteLine>
+    <cac:CreditNoteLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:CreditedQuantity unitCode="EA">32</cbc:CreditedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">64.00</cbc:LineExtensionAmount>
+        <cac:BillingReference>
+            <cac:BillingReferenceLine>
+                <cbc:ID>6</cbc:ID>
+            </cac:BillingReferenceLine>
+        </cac:BillingReference>
+        <cac:DocumentReference>
+            <cbc:ID>PO-98-K-12323</cbc:ID>
+            <cbc:DocumentTypeCode listID="urn:tradeshift.com:api:1.0:documenttypecode">Order ID</cbc:DocumentTypeCode>
+        </cac:DocumentReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="USD">64.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+                <cbc:CalculationSequenceNumeric>1</cbc:CalculationSequenceNumeric>
+                <cac:TaxCategory>
+                    <cbc:ID schemeAgencyID="6" schemeID="UN/ECE 5305" schemeVersionID="D08B">E</cbc:ID>
+                    <cbc:Percent>0</cbc:Percent>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyID="6"
+                          schemeID="UN/ECE 5153 Subset"
+                          schemeVersionID="D08B">STT</cbc:ID>
+                        <cbc:Name>US Tax Exempt 0%</cbc:Name>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>Antenna EU</cbc:Description>
+            <cbc:Name>Antenna EU</cbc:Name>
+            <cac:SellersItemIdentification>
+                <cbc:ID schemeAgencyID="9" schemeID="GTIN">8210</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">2</cbc:PriceAmount>
+            <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+            <cbc:OrderableUnitFactorRate>1</cbc:OrderableUnitFactorRate>
+        </cac:Price>
+    </cac:CreditNoteLine>
+</CreditNote>

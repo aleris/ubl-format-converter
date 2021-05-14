@@ -1,0 +1,42 @@
+{
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+  "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+  "_A": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+  "Invoice": [
+    {
+      "CopyIndicator": [
+        {
+          "_": true
+        }
+      ],
+      "LineCountNumeric": [
+        {
+          "_": 56
+        }
+      ],
+      "LegalMonetaryTotal": [
+        {
+          "LineExtensionAmount": [
+            {
+              "_": 56.78
+            }
+          ],
+          "TaxExclusiveAmount": [
+            {
+              "_": 56.0
+            }
+          ],
+          "PayableAmount": [
+            {
+              "_": 0
+            }
+          ],
+          "PrepaidAmount": [
+            {
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

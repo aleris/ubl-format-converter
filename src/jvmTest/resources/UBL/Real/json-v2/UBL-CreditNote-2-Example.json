@@ -1,0 +1,1263 @@
+{
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2",
+  "_A": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+  "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+  "CreditNote": [
+    {
+      "UBLVersionID": [
+        {
+          "_": "2.0"
+        }
+      ],
+      "CustomizationID": [
+        {
+          "_": "urn:tradeshift.com:ubl-2.0-customizations:2010-06"
+        }
+      ],
+      "ProfileID": [
+        {
+          "_": "urn:www.cenbii.eu:profile:bii04:ver1.0",
+          "schemeAgencyID": "CEN/ISSS WS/BII",
+          "schemeID": "CWA 16073:2010"
+        }
+      ],
+      "ID": [
+        {
+          "_": "CN-TST-222"
+        }
+      ],
+      "IssueDate": [
+        {
+          "_": "2017-02-24"
+        }
+      ],
+      "DocumentCurrencyCode": [
+        {
+          "_": "USD"
+        }
+      ],
+      "BillingReference": [
+        {
+          "InvoiceDocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "INV-W-1"
+                }
+              ],
+              "IssueDate": [
+                {
+                  "_": "2018-02-09"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "AccountingSupplierParty": [
+        {
+          "Party": [
+            {
+              "PartyIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "126ddb10-2643-4366-9713-41bffa4eacc1",
+                      "schemeID": "TS:ID"
+                    }
+                  ]
+                }
+              ],
+              "PartyName": [
+                {
+                  "Name": [
+                    {
+                      "_": "Example Supplier"
+                    }
+                  ]
+                }
+              ],
+              "PostalAddress": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "5",
+                      "listID": "UN/ECE 3477",
+                      "listAgencyID": "6",
+                      "listVersionID": "D08B"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "Main street"
+                    }
+                  ],
+                  "BuildingNumber": [
+                    {
+                      "_": "1"
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "Hamburg"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "29983"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "DE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "AccountingCustomerParty": [
+        {
+          "Party": [
+            {
+              "PartyIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "326ddb10-2643-4366-9713-41bffa4eacc3",
+                      "schemeID": "TS:ID"
+                    }
+                  ]
+                }
+              ],
+              "PartyName": [
+                {
+                  "Name": [
+                    {
+                      "_": "Buyer Construction Co."
+                    }
+                  ]
+                }
+              ],
+              "PostalAddress": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "5",
+                      "listID": "UN/ECE 3477",
+                      "listAgencyID": "6",
+                      "listVersionID": "D08B"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "Main Street"
+                    }
+                  ],
+                  "BuildingNumber": [
+                    {
+                      "_": "1"
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "Copenhagen"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "1000"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "DE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Contact": [
+                {
+                  "ID": [
+                    {
+                      "_": "John Smith"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "TaxTotal": [
+        {
+          "TaxAmount": [
+            {
+              "_": 8.68,
+              "currencyID": "USD"
+            }
+          ],
+          "TaxSubtotal": [
+            {
+              "TaxableAmount": [
+                {
+                  "_": 300.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "E",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 0
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Zero tax license 34562754a"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "STT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "US sales tax 0%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 124.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 8.68,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "S",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 7
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "STT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "US Sales tax"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 25.42,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "Z",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 0
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "STT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "US Non-Taxable 0%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 58.50,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "E",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 0
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Cables not taxable"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "STT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "US Tax Exempt 0%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 64.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "E",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 0
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "STT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "US Tax Exempt 0%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "LegalMonetaryTotal": [
+        {
+          "LineExtensionAmount": [
+            {
+              "_": 571.92,
+              "currencyID": "USD"
+            }
+          ],
+          "TaxExclusiveAmount": [
+            {
+              "_": 8.68,
+              "currencyID": "USD"
+            }
+          ],
+          "TaxInclusiveAmount": [
+            {
+              "_": 580.60,
+              "currencyID": "USD"
+            }
+          ],
+          "PayableAmount": [
+            {
+              "_": 580.60,
+              "currencyID": "USD"
+            }
+          ]
+        }
+      ],
+      "CreditNoteLine": [
+        {
+          "ID": [
+            {
+              "_": "110"
+            }
+          ],
+          "CreditedQuantity": [
+            {
+              "_": 10,
+              "unitCode": "EA"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 300.00,
+              "currencyID": "USD"
+            }
+          ],
+          "BillingReference": [
+            {
+              "BillingReferenceLine": [
+                {
+                  "ID": [
+                    {
+                      "_": "110"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "DocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "PO-222-AF-421"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "Order ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 300.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 0.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "E",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 0
+                        }
+                      ],
+                      "TaxExemptionReason": [
+                        {
+                          "_": "Zero tax license 34562754a"
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "STT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "US sales tax 0%"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "Memory 2GB"
+                }
+              ],
+              "Name": [
+                {
+                  "_": "Memory 2GB"
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 30.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 1,
+                  "unitCode": "EA"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "120"
+            }
+          ],
+          "CreditedQuantity": [
+            {
+              "_": 2,
+              "unitCode": "EA"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 124.00,
+              "currencyID": "USD"
+            }
+          ],
+          "BillingReference": [
+            {
+              "BillingReferenceLine": [
+                {
+                  "ID": [
+                    {
+                      "_": "120"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "DocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "PO-IO-098292"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "Order ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 8.68,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 124.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 8.68,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "S",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 7
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "STT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "US Sales tax"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "SDD drive"
+                }
+              ],
+              "Name": [
+                {
+                  "_": "SDD drive"
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 62.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 1,
+                  "unitCode": "EA"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "140"
+            }
+          ],
+          "CreditedQuantity": [
+            {
+              "_": 8.5,
+              "unitCode": "EA"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 25.42,
+              "currencyID": "USD"
+            }
+          ],
+          "BillingReference": [
+            {
+              "BillingReferenceLine": [
+                {
+                  "ID": [
+                    {
+                      "_": "140"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "DocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "PO-98-K-12323"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "Order ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 25.42,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 0.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "Z",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 0
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "STT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "US Non-Taxable 0%"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "Keyboards"
+                }
+              ],
+              "Name": [
+                {
+                  "_": "Keyboards"
+                }
+              ],
+              "SellersItemIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "90210",
+                      "schemeAgencyID": "9",
+                      "schemeID": "GTIN"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 2.99,
+                  "currencyID": "USD"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 1,
+                  "unitCode": "EA"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "5"
+            }
+          ],
+          "CreditedQuantity": [
+            {
+              "_": 13,
+              "unitCode": "EA"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 58.50,
+              "currencyID": "USD"
+            }
+          ],
+          "BillingReference": [
+            {
+              "BillingReferenceLine": [
+                {
+                  "ID": [
+                    {
+                      "_": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "DocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "PO-22-9"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "Order ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 58.50,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 0.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "E",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 0
+                        }
+                      ],
+                      "TaxExemptionReason": [
+                        {
+                          "_": "Cables not taxable"
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "STT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "US Tax Exempt 0%"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "Cable RJ45"
+                }
+              ],
+              "Name": [
+                {
+                  "_": "Cable RJ45"
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 4.50,
+                  "currencyID": "USD"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 1,
+                  "unitCode": "EA"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "6"
+            }
+          ],
+          "CreditedQuantity": [
+            {
+              "_": 32,
+              "unitCode": "EA"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 64.00,
+              "currencyID": "USD"
+            }
+          ],
+          "BillingReference": [
+            {
+              "BillingReferenceLine": [
+                {
+                  "ID": [
+                    {
+                      "_": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "DocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "PO-98-K-12323"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "Order ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 64.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 0.00,
+                      "currencyID": "USD"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "E",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 0
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "STT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "US Tax Exempt 0%"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "Antenna EU"
+                }
+              ],
+              "Name": [
+                {
+                  "_": "Antenna EU"
+                }
+              ],
+              "SellersItemIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "8210",
+                      "schemeAgencyID": "9",
+                      "schemeID": "GTIN"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 2,
+                  "currencyID": "USD"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 1,
+                  "unitCode": "EA"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

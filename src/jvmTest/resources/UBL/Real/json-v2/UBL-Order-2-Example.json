@@ -1,0 +1,311 @@
+{
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:Order-2",
+  "_A": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+  "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+  "_E": "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+  "Order": [
+    {
+      "UBLVersionID": [
+        {
+          "_": "2.0"
+        }
+      ],
+      "CustomizationID": [
+        {
+          "_": "urn:tradeshift.com:ubl-2.0-customizations:2010-06"
+        }
+      ],
+      "ProfileID": [
+        {
+          "_": "urn:tradeshift.com:profile:BasicOrder:ver1.0",
+          "schemeAgencyID": "http://tradeshift.com"
+        }
+      ],
+      "ID": [
+        {
+          "_": "PO12244133"
+        }
+      ],
+      "CopyIndicator": [
+        {
+          "_": true
+        }
+      ],
+      "IssueDate": [
+        {
+          "_": "2021-04-04"
+        }
+      ],
+      "Note": [
+        {
+          "_": "Disclaimer - Please note that this Purchase Order (PO) is only a copy of the official PO document, to facilitate e-Invoicing to Example Buyer. The official PO you should have received earlier."
+        }
+      ],
+      "DocumentCurrencyCode": [
+        {
+          "_": "SGD"
+        }
+      ],
+      "AdditionalDocumentReference": [
+        {
+          "ID": [
+            {
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "1"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "humanreadableversion",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        }
+      ],
+      "BuyerCustomerParty": [
+        {
+          "Party": [
+            {
+              "PartyIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "126ddb10-2643-4366-9713-41bffa4eacc1",
+                      "schemeID": "TS:ID"
+                    }
+                  ]
+                }
+              ],
+              "PartyName": [
+                {
+                  "Name": [
+                    {
+                      "_": "Child1BranchUS john.smith+001+child1"
+                    }
+                  ]
+                }
+              ],
+              "PostalAddress": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "5",
+                      "listID": "UN/ECE 3477",
+                      "listAgencyID": "6",
+                      "listVersionID": "D08B"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "Andersgade"
+                    }
+                  ],
+                  "BuildingNumber": [
+                    {
+                      "_": "4"
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "Shiftograd"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "55667"
+                    }
+                  ],
+                  "CountrySubentity": [
+                    {
+                      "_": "VW"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "US"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Contact": [
+                {
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "SellerSupplierParty": [
+        {
+          "Party": [
+            {
+              "PartyIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "326ddb10-2643-4366-9713-41bffa4eacc3",
+                      "schemeID": "TS:ID"
+                    }
+                  ]
+                }
+              ],
+              "PartyName": [
+                {
+                  "Name": [
+                    {
+                      "_": "Example Seller Inc."
+                    }
+                  ]
+                }
+              ],
+              "PostalAddress": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "StructuredDE",
+                      "listID": "urn:oioubl:codelist:addressformatcode-1.1",
+                      "listAgencyID": "320"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "Main Street"
+                    }
+                  ],
+                  "BuildingNumber": [
+                    {
+                      "_": "1"
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "Copenhagen"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "1000"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "DE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Contact": [
+                {
+                  "ElectronicMail": [
+                    {
+                      "_": "john.smith+001@tradeshift.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "AnticipatedMonetaryTotal": [
+        {
+          "LineExtensionAmount": [
+            {
+              "_": 16900,
+              "currencyID": "SGD"
+            }
+          ],
+          "PayableAmount": [
+            {
+              "_": 16900,
+              "currencyID": "SGD"
+            }
+          ]
+        }
+      ],
+      "OrderLine": [
+        {
+          "LineItem": [
+            {
+              "ID": [
+                {
+                  "_": "1"
+                }
+              ],
+              "Quantity": [
+                {
+                  "_": 16900.0000,
+                  "unitCode": "EA"
+                }
+              ],
+              "LineExtensionAmount": [
+                {
+                  "_": 16900.0000,
+                  "currencyID": "SGD"
+                }
+              ],
+              "Price": [
+                {
+                  "PriceAmount": [
+                    {
+                      "_": 1.0000,
+                      "currencyID": "SGD"
+                    }
+                  ],
+                  "BaseQuantity": [
+                    {
+                      "_": 1,
+                      "unitCode": "EA"
+                    }
+                  ]
+                }
+              ],
+              "Item": [
+                {
+                  "Description": [
+                    {
+                      "_": "Purchase of dry good for"
+                    }
+                  ],
+                  "ClassifiedTaxCategory": [
+                    {
+                      "ID": [
+                        {
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                            }
+                          ],
+                          "Name": [
+                            {
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

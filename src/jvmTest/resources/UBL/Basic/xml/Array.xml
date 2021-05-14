@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+    <cbc:Note>h-a</cbc:Note>
+    <cbc:Note>h-b</cbc:Note>
+    <cac:InvoiceLine>
+        <cbc:Note>l1-a</cbc:Note>
+        <cbc:Note>l1-b</cbc:Note>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:Note>l2-a</cbc:Note>
+        <cbc:Note>l2-b</cbc:Note>
+    </cac:InvoiceLine>
+</Invoice>

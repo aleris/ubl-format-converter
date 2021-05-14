@@ -1,0 +1,2367 @@
+{
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+  "_A": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+  "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+  "Invoice": [
+    {
+      "UBLVersionID": [
+        {
+          "_": "2.0"
+        }
+      ],
+      "CustomizationID": [
+        {
+          "_": "urn:tradeshift.com:ubl-2.0-customizations:2010-06"
+        }
+      ],
+      "ProfileID": [
+        {
+          "_": "urn:www.cenbii.eu:profile:bii04:ver1.0",
+          "schemeAgencyID": "CEN/ISSS WS/BII",
+          "schemeID": "CWA 16073:2010"
+        }
+      ],
+      "ID": [
+        {
+          "_": "INV-W-1"
+        }
+      ],
+      "CopyIndicator": [
+        {
+          "_": true
+        }
+      ],
+      "IssueDate": [
+        {
+          "_": "2018-10-27"
+        }
+      ],
+      "InvoiceTypeCode": [
+        {
+          "_": "380",
+          "listID": "UN/ECE 1001 Subset",
+          "listAgencyID": "6"
+        }
+      ],
+      "Note": [
+        {
+          "_": "Some Note Some Note Some NoteSome NoteSome NoteSome NoteSome NoteSome NoteSome NoteSome NoteSome NoteSome NoteSome Note Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning Henning Presenning"
+        }
+      ],
+      "TaxPointDate": [
+        {
+          "_": "2018-10-22"
+        }
+      ],
+      "DocumentCurrencyCode": [
+        {
+          "_": "EUR"
+        }
+      ],
+      "AccountingCost": [
+        {
+          "_": "GB150006"
+        }
+      ],
+      "BillingReference": [
+        {
+          "InvoiceDocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "3424"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "DespatchDocumentReference": [
+        {
+          "ID": [
+            {
+              "_": "342ewe4"
+            }
+          ]
+        }
+      ],
+      "ReceiptDocumentReference": [
+        {
+          "ID": [
+            {
+              "_": "GR374534"
+            }
+          ]
+        }
+      ],
+      "ContractDocumentReference": [
+        {
+          "ID": [
+            {
+              "_": "34827-3424"
+            }
+          ]
+        }
+      ],
+      "AdditionalDocumentReference": [
+        {
+          "ID": [
+            {
+              "_": "12345678901234"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "File ID",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "BOL801584854"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "BOL ID",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "Vehicle374627"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "VN ID",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "Department 36243"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "DepartmentCode",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "Intra3463"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "Inttra match ID",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "EUR 374.348.000"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "SenderShareCapital",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "HALF_EVEN"
+            }
+          ],
+          "DocumentTypeCode": [
+            {
+              "_": "RoundingRule",
+              "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+            }
+          ]
+        }
+      ],
+      "AccountingSupplierParty": [
+        {
+          "Party": [
+            {
+              "PartyIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "126ddb10-2643-4366-9713-41bffa4eacc1",
+                      "schemeID": "TS:ID"
+                    }
+                  ]
+                }
+              ],
+              "PartyName": [
+                {
+                  "Name": [
+                    {
+                      "_": "Example Seller"
+                    }
+                  ]
+                }
+              ],
+              "PostalAddress": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "5",
+                      "listID": "UN/ECE 3477",
+                      "listAgencyID": "6"
+                    }
+                  ],
+                  "Postbox": [
+                    {
+                      "_": "3483"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "SUPPLIER STREET"
+                    }
+                  ],
+                  "AdditionalStreetName": [
+                    {
+                      "_": "Delivery alley"
+                    }
+                  ],
+                  "BuildingNumber": [
+                    {
+                      "_": "9"
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "SUPPLIER CITY"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "WF9 3XX"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "DE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "PhysicalLocation": [
+                {
+                  "ID": [
+                    {
+                      "_": "4375645",
+                      "schemeID": "GLN"
+                    }
+                  ]
+                }
+              ],
+              "PartyTaxScheme": [
+                {
+                  "CompanyID": [
+                    {
+                      "_": "DE234567891",
+                      "schemeID": "DE:VAT"
+                    }
+                  ],
+                  "ExemptionReason": [
+                    {
+                      "_": "We don't do taxes"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "VAT"
+                        }
+                      ],
+                      "JurisdictionRegionAddress": [
+                        {
+                          "AddressFormatCode": [
+                            {
+                              "_": "5",
+                              "listID": "UN/ECE 3477",
+                              "listAgencyID": "6"
+                            }
+                          ],
+                          "District": [
+                            {
+                              "_": "District 18"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "PartyLegalEntity": [
+                {
+                  "RegistrationName": [
+                    {
+                      "_": "Example Seller Incorp"
+                    }
+                  ],
+                  "CompanyID": [
+                    {
+                      "_": "552044992",
+                      "schemeID": "FR:SIRET"
+                    }
+                  ],
+                  "RegistrationAddress": [
+                    {
+                      "ID": [
+                        {
+                          "_": "RCS Paris 552044992"
+                        }
+                      ],
+                      "AddressFormatCode": [
+                        {
+                          "_": "5",
+                          "listID": "UN/ECE 3477",
+                          "listAgencyID": "6"
+                        }
+                      ],
+                      "Postbox": [
+                        {
+                          "_": "118"
+                        }
+                      ],
+                      "StreetName": [
+                        {
+                          "_": "avenue Hoche"
+                        }
+                      ],
+                      "AdditionalStreetName": [
+                        {
+                          "_": "3rd floor"
+                        }
+                      ],
+                      "BuildingNumber": [
+                        {
+                          "_": "56"
+                        }
+                      ],
+                      "CityName": [
+                        {
+                          "_": "Paris"
+                        }
+                      ],
+                      "PostalZone": [
+                        {
+                          "_": "75008"
+                        }
+                      ],
+                      "Country": [
+                        {
+                          "IdentificationCode": [
+                            {
+                              "_": "FR"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "CorporateRegistrationScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "SA"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "SA A DIRECTOIRE ET CONSEIL DE SURVEILLANCE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Contact": [
+                {
+                  "ID": [
+                    {
+                      "_": "123"
+                    }
+                  ],
+                  "Name": [
+                    {
+                      "_": "Henning Presenning"
+                    }
+                  ],
+                  "ElectronicMail": [
+                    {
+                      "_": "gert138@mailinator.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "AccountingCustomerParty": [
+        {
+          "CustomerAssignedAccountID": [
+            {
+              "_": "20ISR"
+            }
+          ],
+          "Party": [
+            {
+              "PartyIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "316c911a-9b25-4600-a648-1749bce2673d",
+                      "schemeID": "TS:ID"
+                    }
+                  ]
+                }
+              ],
+              "PartyName": [
+                {
+                  "Name": [
+                    {
+                      "_": "Construction Buyer Co"
+                    }
+                  ]
+                }
+              ],
+              "PostalAddress": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "5",
+                      "listID": "UN/ECE 3477",
+                      "listAgencyID": "6"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "9 CUSTOMER STREET"
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "CUSTOMER CITY"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "WF9 2XX"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "DE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "PartyTaxScheme": [
+                {
+                  "CompanyID": [
+                    {
+                      "_": "DE234567891",
+                      "schemeID": "DE:VAT"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "VAT"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "PartyLegalEntity": [
+                {
+                  "RegistrationName": [
+                    {
+                      "_": "Customer Ltd."
+                    }
+                  ],
+                  "CompanyID": [
+                    {
+                      "_": "SC123456",
+                      "schemeID": "GB:CNO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Delivery": [
+        {
+          "ActualDeliveryDate": [
+            {
+              "_": "2011-10-05"
+            }
+          ],
+          "DeliveryLocation": [
+            {
+              "ID": [
+                {
+                  "_": "1234567890123",
+                  "schemeAgencyID": "9",
+                  "schemeID": "GLN"
+                }
+              ],
+              "Description": [
+                {
+                  "_": "Backdoor"
+                }
+              ],
+              "Address": [
+                {
+                  "AddressFormatCode": [
+                    {
+                      "_": "5",
+                      "listID": "UN/ECE 3477",
+                      "listAgencyID": "6"
+                    }
+                  ],
+                  "StreetName": [
+                    {
+                      "_": "Dstreet1"
+                    }
+                  ],
+                  "AdditionalStreetName": [
+                    {
+                      "_": "Dstreet2"
+                    }
+                  ],
+                  "BuildingNumber": [
+                    {
+                      "_": "13"
+                    }
+                  ],
+                  "MarkAttention": [
+                    {
+                      "_": "Customer Ltd."
+                    }
+                  ],
+                  "CityName": [
+                    {
+                      "_": "Dcity"
+                    }
+                  ],
+                  "PostalZone": [
+                    {
+                      "_": "12345"
+                    }
+                  ],
+                  "CountrySubentity": [
+                    {
+                      "_": "Dsubentity"
+                    }
+                  ],
+                  "Country": [
+                    {
+                      "IdentificationCode": [
+                        {
+                          "_": "GB"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "PromisedDeliveryPeriod": [
+            {
+              "StartDate": [
+                {
+                  "_": "2018-11-12"
+                }
+              ],
+              "EndDate": [
+                {
+                  "_": "2018-11-15"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "PaymentMeans": [
+        {
+          "ID": [
+            {
+              "_": "1"
+            }
+          ],
+          "PaymentMeansCode": [
+            {
+              "_": "10",
+              "listID": "urn:tradeshift.com:api:1.0:paymentmeanscode"
+            }
+          ],
+          "PaymentDueDate": [
+            {
+              "_": "2018-10-12"
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "3"
+            }
+          ],
+          "PaymentMeansCode": [
+            {
+              "_": "42",
+              "listID": "urn:tradeshift.com:api:1.0:paymentmeanscode"
+            }
+          ],
+          "PaymentChannelCode": [
+            {
+              "_": "DE:BANK",
+              "listID": "urn:tradeshift.com:api:1.0:paymentchannelcode"
+            }
+          ],
+          "PayeeFinancialAccount": [
+            {
+              "ID": [
+                {
+                  "_": "358475"
+                }
+              ],
+              "PaymentNote": [
+                {
+                  "_": "Please include ref"
+                }
+              ],
+              "FinancialInstitutionBranch": [
+                {
+                  "ID": [
+                    {
+                      "_": "345845"
+                    }
+                  ],
+                  "Name": [
+                    {
+                      "_": "Bank of Hawaii"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "4"
+            }
+          ],
+          "PaymentMeansCode": [
+            {
+              "_": "42",
+              "listID": "urn:tradeshift.com:api:1.0:paymentmeanscode"
+            }
+          ],
+          "PaymentChannelCode": [
+            {
+              "_": "DE:BANK",
+              "listID": "urn:tradeshift.com:api:1.0:paymentchannelcode"
+            }
+          ],
+          "PayeeFinancialAccount": [
+            {
+              "ID": [
+                {
+                  "_": "3457465"
+                }
+              ],
+              "PaymentNote": [
+                {
+                  "_": "Pay in DKK"
+                }
+              ],
+              "FinancialInstitutionBranch": [
+                {
+                  "ID": [
+                    {
+                      "_": "347357"
+                    }
+                  ],
+                  "Name": [
+                    {
+                      "_": "Bank of Fyn"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "5"
+            }
+          ],
+          "PaymentMeansCode": [
+            {
+              "_": "31",
+              "listID": "urn:tradeshift.com:api:1.0:paymentmeanscode"
+            }
+          ],
+          "PaymentDueDate": [
+            {
+              "_": "2018-10-12"
+            }
+          ],
+          "PaymentChannelCode": [
+            {
+              "_": "IBAN",
+              "listID": "urn:tradeshift.com:api:1.0:paymentchannelcode"
+            }
+          ],
+          "PayeeFinancialAccount": [
+            {
+              "ID": [
+                {
+                  "_": "123456789012345678"
+                }
+              ],
+              "PaymentNote": [
+                {
+                  "_": "As agreed"
+                }
+              ],
+              "FinancialInstitutionBranch": [
+                {
+                  "FinancialInstitution": [
+                    {
+                      "ID": [
+                        {
+                          "_": "DADABKKK"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "PaymentTerms": [
+        {
+          "ID": [
+            {
+              "_": "1"
+            }
+          ],
+          "PaymentMeansID": [
+            {
+              "_": "1"
+            }
+          ],
+          "Note": [
+            {
+              "_": "TERMS ARE 30 DAYS FROM INVOICE DATE"
+            }
+          ],
+          "ReferenceEventCode": [
+            {
+              "_": "23"
+            }
+          ],
+          "SettlementDiscountPercent": [
+            {
+              "_": 1.23
+            }
+          ],
+          "PenaltySurchargePercent": [
+            {
+              "_": 8.20
+            }
+          ],
+          "Amount": [
+            {
+              "_": 6312.50,
+              "currencyID": "GBP"
+            }
+          ],
+          "SettlementPeriod": [
+            {
+              "StartDate": [
+                {
+                  "_": "2018-12-25"
+                }
+              ],
+              "EndDate": [
+                {
+                  "_": "2018-12-25"
+                }
+              ]
+            }
+          ],
+          "PenaltyPeriod": [
+            {
+              "StartDate": [
+                {
+                  "_": "2018-12-14"
+                }
+              ],
+              "EndDate": [
+                {
+                  "_": "2018-12-28"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "AllowanceCharge": [
+        {
+          "ID": [
+            {
+              "_": "1"
+            }
+          ],
+          "ChargeIndicator": [
+            {
+              "_": false
+            }
+          ],
+          "AllowanceChargeReasonCode": [
+            {
+              "_": "74"
+            }
+          ],
+          "AllowanceChargeReason": [
+            {
+              "_": "Summer discount"
+            }
+          ],
+          "MultiplierFactorNumeric": [
+            {
+              "_": 1
+            }
+          ],
+          "SequenceNumeric": [
+            {
+              "_": 1
+            }
+          ],
+          "Amount": [
+            {
+              "_": 10.00,
+              "currencyID": "GBP"
+            }
+          ],
+          "BaseAmount": [
+            {
+              "_": 10.00,
+              "currencyID": "GBP"
+            }
+          ],
+          "TaxCategory": [
+            {
+              "ID": [
+                {
+                  "_": "S",
+                  "schemeAgencyID": "6",
+                  "schemeID": "UN/ECE 5305",
+                  "schemeVersionID": "D08B"
+                }
+              ],
+              "Percent": [
+                {
+                  "_": 25
+                }
+              ],
+              "BaseUnitMeasure": [
+                {
+                  "_": 34.2,
+                  "unitCode": "KGM"
+                }
+              ],
+              "PerUnitAmount": [
+                {
+                  "_": 10.00,
+                  "currencyID": "GBP"
+                }
+              ],
+              "TaxExemptionReasonCode": [
+                {
+                  "_": "23"
+                }
+              ],
+              "TaxExemptionReason": [
+                {
+                  "_": "Gasoline"
+                }
+              ],
+              "TaxScheme": [
+                {
+                  "ID": [
+                    {
+                      "_": "VAT",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5153 Subset",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Name": [
+                    {
+                      "_": "VAT scheme"
+                    }
+                  ],
+                  "JurisdictionRegionAddress": [
+                    {
+                      "AddressFormatCode": [
+                        {
+                          "_": "5",
+                          "listID": "UN/ECE 3477",
+                          "listAgencyID": "6"
+                        }
+                      ],
+                      "District": [
+                        {
+                          "_": "District 18"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "2"
+            }
+          ],
+          "ChargeIndicator": [
+            {
+              "_": true
+            }
+          ],
+          "AllowanceChargeReason": [
+            {
+              "_": "Handling fee"
+            }
+          ],
+          "MultiplierFactorNumeric": [
+            {
+              "_": 1
+            }
+          ],
+          "SequenceNumeric": [
+            {
+              "_": 1
+            }
+          ],
+          "Amount": [
+            {
+              "_": 10.00,
+              "currencyID": "GBP"
+            }
+          ],
+          "BaseAmount": [
+            {
+              "_": 15.00,
+              "currencyID": "GBP"
+            }
+          ],
+          "TaxCategory": [
+            {
+              "ID": [
+                {
+                  "_": "AE",
+                  "schemeAgencyID": "6",
+                  "schemeID": "UN/ECE 5305",
+                  "schemeVersionID": "D08B"
+                }
+              ],
+              "Percent": [
+                {
+                  "_": 0
+                }
+              ],
+              "BaseUnitMeasure": [
+                {
+                  "_": 34.2,
+                  "unitCode": "KGM"
+                }
+              ],
+              "PerUnitAmount": [
+                {
+                  "_": 10.00,
+                  "currencyID": "GBP"
+                }
+              ],
+              "TaxExemptionReasonCode": [
+                {
+                  "_": "1"
+                }
+              ],
+              "TaxExemptionReason": [
+                {
+                  "_": "Not relevant"
+                }
+              ],
+              "TaxScheme": [
+                {
+                  "ID": [
+                    {
+                      "_": "GST",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5153 Subset",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Name": [
+                    {
+                      "_": "GST scheme"
+                    }
+                  ],
+                  "JurisdictionRegionAddress": [
+                    {
+                      "AddressFormatCode": [
+                        {
+                          "_": "5",
+                          "listID": "UN/ECE 3477",
+                          "listAgencyID": "6"
+                        }
+                      ],
+                      "District": [
+                        {
+                          "_": "District 28"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "TaxExchangeRate": [
+        {
+          "SourceCurrencyCode": [
+            {
+              "_": "GBP"
+            }
+          ],
+          "TargetCurrencyCode": [
+            {
+              "_": "EUR"
+            }
+          ],
+          "CalculationRate": [
+            {
+              "_": 1.2111
+            }
+          ],
+          "MathematicOperatorCode": [
+            {
+              "_": "multiply"
+            }
+          ],
+          "Date": [
+            {
+              "_": "2011-10-11"
+            }
+          ]
+        }
+      ],
+      "TaxTotal": [
+        {
+          "TaxAmount": [
+            {
+              "_": 900.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "RoundingAmount": [
+            {
+              "_": 0.34,
+              "currencyID": "DKK"
+            }
+          ],
+          "TaxSubtotal": [
+            {
+              "TaxableAmount": [
+                {
+                  "_": 3600.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 900.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "CalculationSequenceNumeric": [
+                {
+                  "_": 1
+                }
+              ],
+              "TransactionCurrencyTaxAmount": [
+                {
+                  "_": 23.39,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "S",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 25
+                    }
+                  ],
+                  "BaseUnitMeasure": [
+                    {
+                      "_": 15.00,
+                      "unitCode": "KGM"
+                    }
+                  ],
+                  "PerUnitAmount": [
+                    {
+                      "_": 9.00,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "TaxExemptionReasonCode": [
+                    {
+                      "_": "12"
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Not relevant"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "GST",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "Goods and services"
+                        }
+                      ],
+                      "JurisdictionRegionAddress": [
+                        {
+                          "AddressFormatCode": [
+                            {
+                              "_": "5",
+                              "listID": "UN/ECE 3477",
+                              "listAgencyID": "6"
+                            }
+                          ],
+                          "District": [
+                            {
+                              "_": "District 666"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 136.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 25.84,
+                  "currencyID": "EUR"
+                }
+              ],
+              "CalculationSequenceNumeric": [
+                {
+                  "_": 3424
+                }
+              ],
+              "TransactionCurrencyTaxAmount": [
+                {
+                  "_": 23.39,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "S",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 19
+                    }
+                  ],
+                  "BaseUnitMeasure": [
+                    {
+                      "_": 1.00,
+                      "unitCode": "KGM"
+                    }
+                  ],
+                  "PerUnitAmount": [
+                    {
+                      "_": 9.00,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "TaxExemptionReasonCode": [
+                    {
+                      "_": "12"
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Not relevant"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "DE MwSt. 19%"
+                        }
+                      ],
+                      "JurisdictionRegionAddress": [
+                        {
+                          "AddressFormatCode": [
+                            {
+                              "_": "5",
+                              "listID": "UN/ECE 3477",
+                              "listAgencyID": "6"
+                            }
+                          ],
+                          "District": [
+                            {
+                              "_": "District 6346"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 96.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 0.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "CalculationSequenceNumeric": [
+                {
+                  "_": 2
+                }
+              ],
+              "TransactionCurrencyTaxAmount": [
+                {
+                  "_": 23.39,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "AE",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 0
+                    }
+                  ],
+                  "BaseUnitMeasure": [
+                    {
+                      "_": 1.00,
+                      "unitCode": "KGM"
+                    }
+                  ],
+                  "PerUnitAmount": [
+                    {
+                      "_": 9.00,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "TaxExemptionReasonCode": [
+                    {
+                      "_": "12"
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Not relevant"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "DE MwSt. Reverse-Charge 0%"
+                        }
+                      ],
+                      "JurisdictionRegionAddress": [
+                        {
+                          "AddressFormatCode": [
+                            {
+                              "_": "5",
+                              "listID": "UN/ECE 3477",
+                              "listAgencyID": "6"
+                            }
+                          ],
+                          "District": [
+                            {
+                              "_": "District Berlin"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxableAmount": [
+                {
+                  "_": 168.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxAmount": [
+                {
+                  "_": 11.76,
+                  "currencyID": "EUR"
+                }
+              ],
+              "CalculationSequenceNumeric": [
+                {
+                  "_": 4
+                }
+              ],
+              "TransactionCurrencyTaxAmount": [
+                {
+                  "_": 23.39,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "AA",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 7
+                    }
+                  ],
+                  "BaseUnitMeasure": [
+                    {
+                      "_": 1.00,
+                      "unitCode": "BO"
+                    }
+                  ],
+                  "PerUnitAmount": [
+                    {
+                      "_": 12.00,
+                      "currencyID": "EUR"
+                    }
+                  ],
+                  "TaxExemptionReasonCode": [
+                    {
+                      "_": "12"
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Not relevant"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "DE MwSt. 7%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "LegalMonetaryTotal": [
+        {
+          "LineExtensionAmount": [
+            {
+              "_": 3600.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "TaxExclusiveAmount": [
+            {
+              "_": 900.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "TaxInclusiveAmount": [
+            {
+              "_": 4500.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "AllowanceTotalAmount": [
+            {
+              "_": 340.40,
+              "currencyID": "EUR"
+            }
+          ],
+          "ChargeTotalAmount": [
+            {
+              "_": 80.32,
+              "currencyID": "EUR"
+            }
+          ],
+          "PrepaidAmount": [
+            {
+              "_": 150.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "PayableRoundingAmount": [
+            {
+              "_": 0.74,
+              "currencyID": "EUR"
+            }
+          ],
+          "PayableAmount": [
+            {
+              "_": 4350.00,
+              "currencyID": "EUR"
+            }
+          ]
+        }
+      ],
+      "InvoiceLine": [
+        {
+          "ID": [
+            {
+              "_": "1"
+            }
+          ],
+          "Note": [
+            {
+              "_": "Delivered to wine cellar in wooden crates. A guy named Henning Pressening received it. Drank one-and-a-half bottle!!!"
+            }
+          ],
+          "InvoicedQuantity": [
+            {
+              "_": 12.00,
+              "unitCode": "BO"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 720.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "AccountingCost": [
+            {
+              "_": "4058756394647835"
+            }
+          ],
+          "ReceiptLineReference": [
+            {
+              "LineID": [
+                {
+                  "_": "10"
+                }
+              ],
+              "DocumentReference": [
+                {
+                  "ID": [
+                    {
+                      "_": "32453.74"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "DocumentReference": [
+            {
+              "ID": [
+                {
+                  "_": "348ADS"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "File ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "348ADS"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "BOL ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "VN 47568"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "VN ID",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "internal order 754"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "102",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode",
+                  "name": "Internal order"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "WBS 45745"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "103",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode",
+                  "name": "Work Breakdown Structure"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "PC 45745"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "104",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode",
+                  "name": "Profit Center"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "CC 1000"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "105",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode",
+                  "name": "Company Code"
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "23.32"
+                }
+              ],
+              "DocumentTypeCode": [
+                {
+                  "_": "LinePrice",
+                  "listID": "urn:tradeshift.com:api:1.0:documenttypecode"
+                }
+              ]
+            }
+          ],
+          "AllowanceCharge": [
+            {
+              "ID": [
+                {
+                  "_": "1"
+                }
+              ],
+              "ChargeIndicator": [
+                {
+                  "_": false
+                }
+              ],
+              "AllowanceChargeReason": [
+                {
+                  "_": "Mengenrabatt"
+                }
+              ],
+              "MultiplierFactorNumeric": [
+                {
+                  "_": 1
+                }
+              ],
+              "SequenceNumeric": [
+                {
+                  "_": 1
+                }
+              ],
+              "Amount": [
+                {
+                  "_": 19.80,
+                  "currencyID": "EUR"
+                }
+              ],
+              "BaseAmount": [
+                {
+                  "_": 19.80,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "AA",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 7
+                    }
+                  ],
+                  "BaseUnitMeasure": [
+                    {
+                      "_": 1.00,
+                      "unitCode": "BO"
+                    }
+                  ],
+                  "PerUnitAmount": [
+                    {
+                      "_": 12.00,
+                      "currencyID": "EUR"
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Not relevant"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "DE MwSt. 7%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ID": [
+                {
+                  "_": "2"
+                }
+              ],
+              "ChargeIndicator": [
+                {
+                  "_": true
+                }
+              ],
+              "AllowanceChargeReasonCode": [
+                {
+                  "_": "1"
+                }
+              ],
+              "AllowanceChargeReason": [
+                {
+                  "_": "Freight"
+                }
+              ],
+              "MultiplierFactorNumeric": [
+                {
+                  "_": 1
+                }
+              ],
+              "SequenceNumeric": [
+                {
+                  "_": 2
+                }
+              ],
+              "Amount": [
+                {
+                  "_": 19.80,
+                  "currencyID": "EUR"
+                }
+              ],
+              "BaseAmount": [
+                {
+                  "_": 19.80,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxCategory": [
+                {
+                  "ID": [
+                    {
+                      "_": "S",
+                      "schemeAgencyID": "6",
+                      "schemeID": "UN/ECE 5305",
+                      "schemeVersionID": "D08B"
+                    }
+                  ],
+                  "Percent": [
+                    {
+                      "_": 19
+                    }
+                  ],
+                  "BaseUnitMeasure": [
+                    {
+                      "_": 1.00,
+                      "unitCode": "KGM"
+                    }
+                  ],
+                  "PerUnitAmount": [
+                    {
+                      "_": 9.00,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "TaxExemptionReasonCode": [
+                    {
+                      "_": "12"
+                    }
+                  ],
+                  "TaxExemptionReason": [
+                    {
+                      "_": "Not relevant"
+                    }
+                  ],
+                  "TaxScheme": [
+                    {
+                      "ID": [
+                        {
+                          "_": "VAT",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5153 Subset",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Name": [
+                        {
+                          "_": "DE MwSt. 19%"
+                        }
+                      ],
+                      "JurisdictionRegionAddress": [
+                        {
+                          "AddressFormatCode": [
+                            {
+                              "_": "5",
+                              "listID": "UN/ECE 3477",
+                              "listAgencyID": "6"
+                            }
+                          ],
+                          "District": [
+                            {
+                              "_": "District 6346"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 2.88,
+                  "currencyID": "GBP"
+                }
+              ],
+              "RoundingAmount": [
+                {
+                  "_": 0.23,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 23.99,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 2.88,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "A",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 12
+                        }
+                      ],
+                      "BaseUnitMeasure": [
+                        {
+                          "_": 1.00,
+                          "unitCode": "KGM"
+                        }
+                      ],
+                      "PerUnitAmount": [
+                        {
+                          "_": 1.00,
+                          "currencyID": "USD"
+                        }
+                      ],
+                      "TaxExemptionReason": [
+                        {
+                          "_": "Not applicable"
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "SGST",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "SGST 12%"
+                            }
+                          ],
+                          "JurisdictionRegionAddress": [
+                            {
+                              "AddressFormatCode": [
+                                {
+                                  "_": "5",
+                                  "listID": "UN/ECE 3477",
+                                  "listAgencyID": "6"
+                                }
+                              ],
+                              "District": [
+                                {
+                                  "_": "District 45"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "TaxAmount": [
+                {
+                  "_": 4.80,
+                  "currencyID": "GBP"
+                }
+              ],
+              "RoundingAmount": [
+                {
+                  "_": 0.13,
+                  "currencyID": "USD"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 23.99,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 4.80,
+                      "currencyID": "GBP"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "A",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 20
+                        }
+                      ],
+                      "BaseUnitMeasure": [
+                        {
+                          "_": 2.00,
+                          "unitCode": "BO"
+                        }
+                      ],
+                      "PerUnitAmount": [
+                        {
+                          "_": 0.50,
+                          "currencyID": "USD"
+                        }
+                      ],
+                      "TaxExemptionReason": [
+                        {
+                          "_": "Not applicable"
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "VAT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "VAT 20%"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "Champagne of the house"
+                }
+              ],
+              "Name": [
+                {
+                  "_": "Chateaux DeCorgie Bubbles Cuvee 2009"
+                }
+              ],
+              "ModelName": [
+                {
+                  "_": "3746238-343"
+                }
+              ],
+              "SellersItemIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "32746-CHMP",
+                      "schemeAgencyID": "9",
+                      "schemeID": "GTIN"
+                    }
+                  ]
+                }
+              ],
+              "AdditionalItemIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "34221335",
+                      "schemeID": "HSC"
+                    }
+                  ]
+                }
+              ],
+              "CommodityClassification": [
+                {
+                  "ItemClassificationCode": [
+                    {
+                      "_": "32000000",
+                      "listID": "UNSPSC",
+                      "name": "Request failed with status code 415",
+                      "listAgencyID": "113"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 60.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 10.00,
+                  "unitCode": "BO"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": [
+            {
+              "_": "2000"
+            }
+          ],
+          "Note": [
+            {
+              "_": "HenningPresenning HenningPresenning HenningPresenning HenningPresenning HenningPresenning HenningPresenning v HenningPresenning HenningPresenning HenningPresenning HenningPresenning HenningPresenning HenningPresenning"
+            }
+          ],
+          "InvoicedQuantity": [
+            {
+              "_": 3,
+              "unitCode": "EA"
+            }
+          ],
+          "LineExtensionAmount": [
+            {
+              "_": 168.00,
+              "currencyID": "EUR"
+            }
+          ],
+          "TaxTotal": [
+            {
+              "TaxAmount": [
+                {
+                  "_": 31.92,
+                  "currencyID": "EUR"
+                }
+              ],
+              "TaxSubtotal": [
+                {
+                  "TaxableAmount": [
+                    {
+                      "_": 168.00,
+                      "currencyID": "EUR"
+                    }
+                  ],
+                  "TaxAmount": [
+                    {
+                      "_": 31.92,
+                      "currencyID": "EUR"
+                    }
+                  ],
+                  "CalculationSequenceNumeric": [
+                    {
+                      "_": 1
+                    }
+                  ],
+                  "TaxCategory": [
+                    {
+                      "ID": [
+                        {
+                          "_": "A",
+                          "schemeAgencyID": "6",
+                          "schemeID": "UN/ECE 5305",
+                          "schemeVersionID": "D08B"
+                        }
+                      ],
+                      "Percent": [
+                        {
+                          "_": 19
+                        }
+                      ],
+                      "TaxScheme": [
+                        {
+                          "ID": [
+                            {
+                              "_": "VAT",
+                              "schemeAgencyID": "6",
+                              "schemeID": "UN/ECE 5153 Subset",
+                              "schemeVersionID": "D08B"
+                            }
+                          ],
+                          "Name": [
+                            {
+                              "_": "VAT 19%"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Item": [
+            {
+              "Description": [
+                {
+                  "_": "RJ 34 4367\""
+                }
+              ],
+              "Name": [
+                {
+                  "_": "Fancy cables in purple"
+                }
+              ],
+              "ModelName": [
+                {
+                  "_": "PurpleCables"
+                }
+              ],
+              "SellersItemIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "2346243",
+                      "schemeAgencyID": "9",
+                      "schemeID": "GTIN"
+                    }
+                  ]
+                }
+              ],
+              "AdditionalItemIdentification": [
+                {
+                  "ID": [
+                    {
+                      "_": "8891335",
+                      "schemeID": "HSN"
+                    }
+                  ]
+                }
+              ],
+              "CommodityClassification": [
+                {
+                  "ItemClassificationCode": [
+                    {
+                      "_": "23534335",
+                      "listID": "UNSPSC",
+                      "name": "7.0401",
+                      "listAgencyID": "113"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Price": [
+            {
+              "PriceAmount": [
+                {
+                  "_": 56.00,
+                  "currencyID": "EUR"
+                }
+              ],
+              "BaseQuantity": [
+                {
+                  "_": 1,
+                  "unitCode": "EA"
+                }
+              ],
+              "OrderableUnitFactorRate": [
+                {
+                  "_": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

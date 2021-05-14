@@ -1,0 +1,11 @@
+{
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+  "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+  "Invoice": [{
+    "ID": [{}],
+    "Note": [{}],
+    "AccountingCost": [{
+      "TextContent": " 1"
+    }]
+  }]
+}

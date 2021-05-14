@@ -1,0 +1,27 @@
+{
+  "_D": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+  "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+  "_S": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+  "Invoice": [{
+    "Note": [{
+        "TextContent": "h-a"
+      }, {
+        "TextContent": "h-b"
+      }
+    ],
+    "InvoiceLine": [{
+      "Note": [{
+          "TextContent": "l1-a"
+        }, {
+          "TextContent": "l1-b"
+        }
+      ]}, {
+      "Note": [{
+          "TextContent": "l2-a"
+        }, {
+          "TextContent": "l2-b"
+        }
+      ]
+    }]
+  }]
+}
